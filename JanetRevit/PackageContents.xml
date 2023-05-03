@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ApplicationPackage SchemaVersion="1.0" AutodeskProduct="Revit" ProductType="Application" AppVersion="1.0.0"
+                    SupportedLocales="Enu" ProductCode="25F352C0-507B-4592-8E27-22EDF3795E0D">
+  <CompanyDetails Name="VIATechnik, LLC" Url="https://www.viatechnik.com/" Email="support@viatechnik.com" />
+    <Components Description="Contents">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2020" SeriesMax="R2020" />
+    <ComponentEntry AppName="Janet Revit" ModuleName="./Contents/JanetRevit.addin"></ComponentEntry>
+  </Components>
+  <Components Description="Contents">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2021" SeriesMax="R2021" />
+    <ComponentEntry AppName="Janet Revit" ModuleName="./Contents/JanetRevit.addin"></ComponentEntry>
+  </Components>
+    <Components Description="Contents">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2022" SeriesMax="R2022" />
+    <ComponentEntry AppName="Janet Revit" ModuleName="./Contents/JanetRevit.addin"></ComponentEntry>
+  </Components>
+    <Components Description="Contents">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2023" SeriesMax="R2023" />
+    <ComponentEntry AppName="Janet Revit" ModuleName="./Contents/JanetRevit.addin"></ComponentEntry>
+  </Components>
+</ApplicationPackage>

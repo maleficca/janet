@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Janet</Name>
+    <Assembly>JanetRevit/JanetRevit.dll</Assembly>
+    <AddInId>d211a5c4-fbef-4f49-9a78-95f45e677fca</AddInId>
+    <FullClassName>JanetRevit.Main</FullClassName>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>VT</VendorId>
+    <VendorDescription>ViaTechnik</VendorDescription>
+  </AddIn>
+</RevitAddIns>

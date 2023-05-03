@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{18CADCE2-B89D-4385-904D-6099D8E6EF30}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JanetRevit</RootNamespace>
+    <AssemblyName>JanetRevit</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <RevitAPIPath>C:\Program Files\Autodesk\Revit 2020\RevitAPI.dll</RevitAPIPath>
+    <RevitAPIUIPath>C:\Program Files\Autodesk\Revit 2020\RevitAPIUI.dll</RevitAPIUIPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Assemblies.Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>MSB3270</NoWarn>
+    <RevitAPIPath>C:\Program Files\Autodesk\Revit 2020\RevitAPI.dll</RevitAPIPath>
+    <RevitAPIUIPath>C:\Program Files\Autodesk\Revit 2020\RevitAPIUI.dll</RevitAPIUIPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RevitAPIPath>..\lib\RevitAPI.dll</RevitAPIPath>
+    <RevitAPIUIPath>..\lib\RevitAPIUI.dll</RevitAPIUIPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SetupInterface.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="JanetRevit.addin" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JanetRevit.Core\JanetRevit.Core.csproj">
+      <Project>{5fd8d996-f312-4f05-ba41-51490b28007b}</Project>
+      <Name>JanetRevit.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JanetRevit.UI\JanetRevit.UI.csproj">
+      <Project>{6bbcddbc-1720-4246-9793-4e617142791f}</Project>
+      <Name>JanetRevit.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Revit_All_Main_Versions_API_x64">
+      <Version>2020.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe">
+      <Version>4.5.3</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PostBuildEvent>if not exist "C:\ProgramData\Autodesk\Revit\Addins\2020\$(SolutionName)" mkdir "C:\ProgramData\Autodesk\Revit\Addins\2020\$(SolutionName)" 
+xcopy /Y "$(ProjectDir)bin\debug\$(ProjectName).dll" "C:\ProgramData\Autodesk\Revit\Addins\2020\$(SolutionName)" 
+xcopy /Y "$(ProjectDir)$(ProjectName).addin" "C:\ProgramData\Autodesk\Revit\Addins\2020"</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>
