@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+	<?define RevitVersion="2020"?>
+	<?define Manufacturer="VIATechnik LLC"?>
+	<?define AppName="Janet Revit"?>
+  <?define ExecutablesPath="..\Release"?>
+  <?define BlocksPath="$(var.JanetRevit.ProjectDir)\..\ExampleBlocks"?>
+  <?define ProjectName="JanetRevit"?>
+</Include>

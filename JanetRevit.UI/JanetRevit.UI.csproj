@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6BBCDDBC-1720-4246-9793-4E617142791F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>JanetRevit.UI</RootNamespace>
+    <AssemblyName>JanetRevit.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Assemblies.Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="KeyboardHook.cs" />
+    <Compile Include="RevitUI\CatchKeyboardShortcut.cs" />
+    <Compile Include="RevitUI\DockablePaneIdentifiers.cs" />
+    <Compile Include="RevitUI\MainDockablePaneHideCommand.cs" />
+    <Compile Include="RevitUI\MainDockablePaneShowCommand.cs" />
+    <Compile Include="RevitUI\RegisterMainDockablePaneCommand.cs" />
+    <Compile Include="RevitUI\RevitPushButton.cs" />
+    <Compile Include="RevitUI\RevitPushButtonDataModel.cs" />
+    <Compile Include="RevitUI\ScriptEditCommand.cs" />
+    <Compile Include="ViewModels\BasePageViewModel.cs" />
+    <Compile Include="ViewModels\BaseViewModel.cs" />
+    <Compile Include="ViewModels\BlankPageViewModel.cs" />
+    <Compile Include="ViewModels\BlockEditorViewModel.cs" />
+    <Compile Include="ViewModels\MainPageViewModel.cs" />
+    <Compile Include="Views\BlankPage.xaml.cs">
+      <DependentUpon>BlankPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BlockEditor.xaml.cs">
+      <DependentUpon>BlockEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\JanetWindow.xaml.cs">
+      <DependentUpon>JanetWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Page Include="ResourceDictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\BlankPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\BlockEditor.xaml" />
+    <Page Include="Views\JanetWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AvalonEdit">
+      <Version>6.1.3.50</Version>
+    </PackageReference>
+    <PackageReference Include="HandyControl">
+      <Version>3.2.0</Version>
+    </PackageReference>
+    <PackageReference Include="Revit_All_Main_Versions_API_x64">
+      <Version>2020.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="System.Windows.Interactivity.WPF">
+      <Version>2.0.20525</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Logos\babylon_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JanetRevit.Core\JanetRevit.Core.csproj">
+      <Project>{5fd8d996-f312-4f05-ba41-51490b28007b}</Project>
+      <Name>JanetRevit.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\janet_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\script_edit_icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PostBuildEvent>if not exist "C:\ProgramData\Autodesk\Revit\Addins\2020\$(SolutionName)" mkdir "C:\ProgramData\Autodesk\Revit\Addins\2020\$(SolutionName)" 
+xcopy /Y "$(TargetDir)$(ProjectName).dll" "C:\ProgramData\Autodesk\Revit\Addins\2020\$(SolutionName)"
+xcopy /Y "$(ProjectDir)bin\debug\HandyControl.dll" "C:\ProgramData\Autodesk\Revit\Addins\2020\$(SolutionName)"</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

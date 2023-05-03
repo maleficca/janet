@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?include "GlobalVariables.wxi"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Fragment>
+    <DirectoryRef Id="BlocksFolder">
+      <Component Id="cmpC261E2248E4E20A2E67B3C6D70916A9C" Guid="{EF4CED59-ED3F-4BB6-8C4D-948452A99061}">
+        <RegistryValue Root='HKCU' Key='Software\Manufacturer\Product'
+         Name='InstallFolder'
+         Value='[INSTALLFOLDER]'
+         Type='string'
+         KeyPath='yes' />
+        <File Id="filC3C1A3AFB3A6D796FD5F0706D1B72824" Source="$(var.BlocksPath)\approve.cs" />
+      </Component>
+      <Component Id="cmp777A403A5782012A5B88B844885ED064" Guid="{291AE5FC-3F45-407C-AB4E-E15ED32FABA3}">
+        <RegistryValue Root='HKCU' Key='Software\Manufacturer\Product'
+         Name='InstallFolder'
+         Value='[INSTALLFOLDER]'
+         Type='string'
+         KeyPath='yes' />
+        <File Id="fil7124DC0F7C511915F249F14AFF4017B3" Source="$(var.BlocksPath)\family_create.cs" />
+      </Component>
+      <Component Id="cmp36C77DBE7075007F37551D477F0E1DEC" Guid="{11313991-315F-463F-88EC-2664C08B397D}">
+        <RegistryValue Root='HKCU' Key='Software\Manufacturer\Product'
+         Name='InstallFolder'
+         Value='[INSTALLFOLDER]'
+         Type='string'
+         KeyPath='yes' />
+        <File Id="filC483F64CB90FE8637FAA5A9BA5F780F9" Source="$(var.BlocksPath)\model_lintels.cs" />
+      </Component>
+      <Component Id="cmp91A3C0635B4D669D9DD55FE86D60B5AF" Guid="{4D4DBCF1-B317-4547-93C8-36717B677873}">
+        <RegistryValue Root='HKCU' Key='Software\Manufacturer\Product'
+         Name='InstallFolder'
+         Value='[INSTALLFOLDER]'
+         Type='string'
+         KeyPath='yes' />
+        <File Id="fil3BDD6C9735A2999C956E10E7D95A9D89" Source="$(var.BlocksPath)\reject.cs" />
+      </Component>
+      <Component Id="cmpC73A61AB151B9642D0B2C5D532E3F2A8" Guid="{9698CB2A-6333-41B6-B85A-E797E008E216}">
+        <RegistryValue Root='HKCU' Key='Software\Manufacturer\Product'
+         Name='InstallFolder'
+         Value='[INSTALLFOLDER]'
+         Type='string'
+         KeyPath='yes' />
+        <File Id="fil96CC72F5E42F831A43CC5B260B243EB3" Source="$(var.BlocksPath)\test.cs" />
+      </Component>
+      <Component Id="cmp4732F8752B6E8BA22A3C438E41E0BBF9" Guid="{55E9622F-9456-4D2C-866D-C218A72D195F}">
+        <RegistryValue Root='HKCU' Key='Software\Manufacturer\Product'
+         Name='InstallFolder'
+         Value='[INSTALLFOLDER]'
+         Type='string'
+         KeyPath='yes' />
+        <File Id="fil6185FB5E275B2828EDDC1E094F5FC295" Source="$(var.BlocksPath)\turn_type_params.cs" />
+      </Component>
+    </DirectoryRef>
+  </Fragment>
+  <Fragment>
+    <ComponentGroup Id="BlocksGroup">
+      <ComponentRef Id="cmpC261E2248E4E20A2E67B3C6D70916A9C" />
+      <ComponentRef Id="cmp777A403A5782012A5B88B844885ED064" />
+      <ComponentRef Id="cmp36C77DBE7075007F37551D477F0E1DEC" />
+      <ComponentRef Id="cmp91A3C0635B4D669D9DD55FE86D60B5AF" />
+      <ComponentRef Id="cmpC73A61AB151B9642D0B2C5D532E3F2A8" />
+      <ComponentRef Id="cmp4732F8752B6E8BA22A3C438E41E0BBF9" />
+    </ComponentGroup>
+  </Fragment>
+</Wix>

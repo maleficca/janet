@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Color x:Key="BackgroundColor" >#EEEEEE</Color>
+    <Color x:Key="PaneBackgroundColor">#FFFFFFFF</Color>
+    <Color x:Key="DescriptionBorderColor">#ADADAD</Color>
+
+    <SolidColorBrush x:Key="BackgroundGray" Color="{StaticResource BackgroundColor}"/>
+    <SolidColorBrush
+        x:Key="PaneBackground"
+        Color="{StaticResource PaneBackgroundColor}" />
+    <SolidColorBrush
+        x:Key="DescriptionBorder"
+        Color="{StaticResource DescriptionBorderColor}" />
+
+    <BitmapImage x:Key="BabylonLogo" UriSource="Resources/Logos/babylon_logo.png" />
+    
+
+</ResourceDictionary>

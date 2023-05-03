@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="AddinFolder">
+            <Component Id="cmpD29DDAC27E9233099805940293AF27B0" Guid="{44A93711-C74E-4BF7-80F5-9CE5BAC7F2C2}">
+                <File Id="fil889AB8CA0B5D713DBBD9D18FE3585B59" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\AdWindows.dll" />
+            </Component>
+            <Component Id="cmp14B16CF1920DC17592E7850C40CBFA32" Guid="{AC9B0E6A-F594-45A2-9703-2FC9A2EAFE1F}">
+                <File Id="fil36C9732D646B02089EC4834C1E0DADDD" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\clipper_library.dll" />
+            </Component>
+            <Component Id="cmp9323FE62CCB67FA9EE3246F9B8DB6E8B" Guid="{DAB3CDA1-48AD-4D26-AEA9-B5ACEA0F193C}">
+                <File Id="filA23D79119AB1F0F47F573AC0E116A762" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\HandyControl.dll" />
+            </Component>
+            <Component Id="cmp2BE74A787D6DD2A5BE7E88037E223DDA" Guid="{11104768-8F67-4E72-BFC5-CE95ED0FBBD7}">
+                <File Id="filD3C2300F12C8D18E81EE15D678815866" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\ICSharpCode.AvalonEdit.dll" />
+            </Component>
+            <Component Id="cmpC8CF9E59027562D5EEAF2187C7998BC6" Guid="{D026645D-6CB6-462B-ABA1-6ADF036D4C33}">
+                <File Id="filD8F5D7D0AEE95A918B97DBB2B02FB917" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\JanetRevit.Core.dll" />
+            </Component>
+            <Component Id="cmpC29695AAEC75D52CE0A2ABCD8E6F8ADF" Guid="{816E4597-26CB-4E80-B371-68DFB8E413F5}">
+                <File Id="filF76E324E6A662F927860130909C13555" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\JanetRevit.Core.pdb" />
+            </Component>
+            <Component Id="cmp8CAD80C4EC61365FA8822A45C99E9ECB" Guid="{9BCAFCCE-6866-4479-A6DC-8FFA00034AEC}">
+                <File Id="fil87D0573839FC9AAA288188EBA0BA3AE0" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\JanetRevit.dll" />
+            </Component>
+            <Component Id="cmp2169738BA54577D0857D30A116F7325D" Guid="{CE836616-4EEC-4541-8103-DBF620DED7F8}">
+                <File Id="fil01C6E34EEDB728445CE87CCC9F8F1106" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\JanetRevit.pdb" />
+            </Component>
+            <Component Id="cmp9C197B738CAB2196DF46C2203EEBA1CA" Guid="{DB20EE3A-43F1-4B1E-BF6C-29EFE48A4CA2}">
+                <File Id="fil98944B8B284F1ECF829109939F2FFAEA" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\JanetRevit.UI.dll" />
+            </Component>
+            <Component Id="cmpB052B707590EE415B694C0E75F7CD29A" Guid="{F95201CF-D0CF-4F0B-ABAF-63E67D3B928D}">
+                <File Id="fil66F1C44E2A90595C3BAA2C9450A57F64" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\JanetRevit.UI.pdb" />
+            </Component>
+            <Component Id="cmpCEB1B5D4A0CFC076A46E921BC238E568" Guid="{42F08585-3ECD-40A9-BB39-002F0A7B21BA}">
+                <File Id="fil506BC979D6E8A2BC753E640B156ACD0B" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\Microsoft.CodeAnalysis.CSharp.dll" />
+            </Component>
+            <Component Id="cmpD63D2F4C97FBD1FD32D5ACEDA56C3864" Guid="{C58EC989-1F74-42F4-A17E-AE95D69FFFF9}">
+                <File Id="fil1D34FED8FF68945136F17E8856B5BE20" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\Microsoft.CodeAnalysis.CSharp.pdb" />
+            </Component>
+            <Component Id="cmpB975AABD55F7B29A71F79A0B8415EDAF" Guid="{1631DABC-9E26-452A-A5BE-197B8AB7628C}">
+                <File Id="fil5B0368E92C052A5CC669CCCDBEA7BE5D" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\Microsoft.CodeAnalysis.CSharp.Scripting.dll" />
+            </Component>
+            <Component Id="cmp8C4E9C73C2927AE9F3A7DBD16C6B64A3" Guid="{3C8A1F88-2FCA-4E06-AE87-11CD02DB4172}">
+                <File Id="fil724117F90938FB283ED2FA2A22FBF74E" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\Microsoft.CodeAnalysis.CSharp.Scripting.pdb" />
+            </Component>
+            <Component Id="cmp766521ACEEFBF7D30F77281C3269EE46" Guid="{9091C5D1-645A-4419-94ED-235608241EC6}">
+                <File Id="fil1E6DBCC7596536421AAB9DF5765E83B4" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\Microsoft.CodeAnalysis.dll" />
+            </Component>
+            <Component Id="cmp3CD2594374B2EEB71A3998175A3A22B4" Guid="{31C880A6-D718-4864-80DB-3E6FB283133D}">
+                <File Id="fil4A145AC33244835FEEF8A15FD2C0A9AC" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\Microsoft.CodeAnalysis.pdb" />
+            </Component>
+            <Component Id="cmp0BF99F7674BC025A47187F406D319312" Guid="{484E928D-B34B-4436-9B44-396A0B37C22E}">
+                <File Id="filBAFF15B5DE25A1A1735A8E4E689C7667" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\Microsoft.CodeAnalysis.Scripting.dll" />
+            </Component>
+            <Component Id="cmpC4BDACF6E273B51AC12A37975172F185" Guid="{0FF8C3CF-84AA-43B0-916A-0FE31E5E2C4E}">
+                <File Id="filC190B66A49C39B27DA3F16784044629C" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\Microsoft.CodeAnalysis.Scripting.pdb" />
+            </Component>
+            <Component Id="cmp1C4B446E105EB4AAD9099204EE6BD966" Guid="{06E7C42D-E079-4CB7-8B69-CFEAF1643745}">
+                <File Id="fil0FC73A73E6ED06072D5729360546C4FA" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\Microsoft.Expression.Interactions.dll" />
+            </Component>
+            <Component Id="cmp1169771A5F1F35223737DBB21130A95F" Guid="{8D2F5E5F-A436-4F7D-B5F9-29790AA2D6B4}">
+                <File Id="fil753DBDBD523C1039728802FABCC09D5E" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\Microsoft.Xaml.Behaviors.dll" />
+            </Component>
+            <Component Id="cmpA0C35A1138EB5CFFE9EC573F76F8415E" Guid="{4E716EC7-52E7-4FD1-88EE-C2A474EBCF11}">
+                <File Id="fil9D14C59553B724BF139995281AFE0C9E" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\Microsoft.Xaml.Behaviors.pdb" />
+            </Component>
+            <Component Id="cmp6616CB17E4922802E5C84B9C16935052" Guid="{67C29535-6DA7-4480-80A3-32876293B77C}">
+                <File Id="fil9BBA16653E5D3B491B96426D91CF8249" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\Newtonsoft.Json.dll" />
+            </Component>
+            <Component Id="cmp8B0413DCAF94ECC68124314A3006334A" Guid="{5503E0D3-6ED3-49F1-8B9C-A978F0C9D310}">
+                <File Id="fil37D7FF444954AD533078A7F0920B64CB" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\Prism.dll" />
+            </Component>
+            <Component Id="cmpBA606FD1041F9C141950FDDD538C813B" Guid="{C5BBBAE4-9241-4731-8BDB-7220D144BD1B}">
+                <File Id="fil9564BC216EA042D1B7B9DCEADFB773A6" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\Prism.pdb" />
+            </Component>
+            <Component Id="cmp7751704C1A2B7E9CA6222681E8930E89" Guid="{A1E0EF0F-6E07-4C14-870E-4FAD4BBA415E}">
+                <File Id="fil0DA2C0A2F5817967C13884DB8FE8EB06" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\Prism.Wpf.dll" />
+            </Component>
+            <Component Id="cmp69C78768DDE0502622D7DF2E722FB56C" Guid="{DD146D07-0637-4FC3-84FC-72271C558D66}">
+                <File Id="filC8B1289E4F77EE30400D66FAD99844F7" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\Prism.Wpf.pdb" />
+            </Component>
+            <Component Id="cmp829099A976A4B27227D473B99A6F6A9D" Guid="{34075A06-BA21-4013-A345-2EA54BB8B3E8}">
+                <File Id="fil19DB34BD9BAD4C59385510F581803C69" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\RevitAPI.dll" />
+            </Component>
+            <Component Id="cmpF19592E25D4B2CA8C6389AAC5C218571" Guid="{B155AA72-E87A-4593-AC75-61F52893D1BA}">
+                <File Id="fil231A7C7496259B5A9CA4E34C72FAF7FD" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\RevitAPIUI.dll" />
+            </Component>
+            <Component Id="cmpAD568283CFD6A75645ED0ECDD761D85E" Guid="{0B879317-4CBD-499F-9DA8-A481DFAA33B6}">
+                <File Id="filA12D9DE081467DACFD3B4C1025434C4C" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\System.Buffers.dll" />
+            </Component>
+            <Component Id="cmpFB525AB8CB9FAB0057B5359FFF6543A1" Guid="{FC4EB00E-25F1-47C6-A1C0-7E667F95E47B}">
+                <File Id="fil5088F94E71D948D60D111B42E87143D6" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\System.Collections.Immutable.dll" />
+            </Component>
+            <Component Id="cmp5A904851F9DE7369E243943F4E5027FA" Guid="{414A0E7B-2EDB-4779-BEDB-FECAC74116EF}">
+                <File Id="fil5EC8BD617ECC4CAA66A5310AFD181E04" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\System.Memory.dll" />
+            </Component>
+            <Component Id="cmpB5468F5DF6425D31E8036A019997ED81" Guid="{61E3FC3F-8B14-40C5-A8AA-CECB683C3C91}">
+                <File Id="filB997D5ACF1187050162A1467E8B6D9B7" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\System.Numerics.Vectors.dll" />
+            </Component>
+            <Component Id="cmp158230C6D044784C9A80FCAFE4E94C86" Guid="{BDAA4AC6-C977-4EB0-AE60-A2EA51917AD8}">
+                <File Id="filCC5592DB9D4CC14E10F87B76CE3D20AC" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\System.Reflection.Metadata.dll" />
+            </Component>
+            <Component Id="cmp8502820C95556A3A5301EB2F54E6E663" Guid="{AD63CB37-0E1E-45ED-918D-31ED8D435615}">
+                <File Id="fil0B46621F425AC6B249AE4B4EF8EE7723" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\System.Runtime.CompilerServices.Unsafe.dll" />
+            </Component>
+            <Component Id="cmp023CF0EB199508879F421BDEE4FBEEAF" Guid="{EE7DD6C8-406E-4AAB-936D-F39B3F295A13}">
+                <File Id="filB8C3D6FE8F9A8F808B8069B0389BF70E" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\System.Text.Encoding.CodePages.dll" />
+            </Component>
+            <Component Id="cmp221A567CD3CE3ABA8B118B1908556F7D" Guid="{10810F94-093A-4A43-8C70-F65ED4E8091A}">
+                <File Id="filA32E6FBD313730EBAFAE04DB2D1DFFAE" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\System.Threading.Tasks.Extensions.dll" />
+            </Component>
+            <Component Id="cmpA0724D3017735645328637689F53919B" Guid="{90D45D25-D233-4FC7-B405-7BDE1FE30305}">
+                <File Id="fil4526C2483FFE5DF19B7C389312E3ECE7" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\System.Windows.Interactivity.dll" />
+            </Component>
+            <Component Id="cmp987914586EE2C9511EDEDF9CA10D6ADE" Guid="{752D454B-6EE8-4A6B-9297-62F6098FB37D}">
+                <File Id="filEE06D8069BF70C8BC1F4EEEB194C670C" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\UIFramework.dll" />
+            </Component>
+            <Directory Id="dirAA447407664EE29DB9F06AC5C1586AE1" Name="ca-ES">
+                <Component Id="cmpE2400EBCEA09B853252DFEAFE720F88D" Guid="{FA4675DD-5282-4A47-9E0F-302481259866}">
+                    <File Id="fil53023C74CD267EC644F3E8F4D91D7EB0" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\ca-ES\HandyControl.resources.dll" />
+                </Component>
+            </Directory>
+            <Directory Id="dir81C33BD5E7A234A465356D4BFDBD6B80" Name="cs">
+                <Component Id="cmpFFD411E243A8C58DF4168B952430B07E" Guid="{FE57F444-839A-4A27-AB13-6ADC71B489CA}">
+                    <File Id="filE5C9F7F3422A2E4C7485BE55BB175C9D" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\cs\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+                </Component>
+                <Component Id="cmpAE3B95D0FD10B545E6ED0A0E4365866D" Guid="{2F78D70E-A5E7-4C58-99C1-AFF0B82E6871}">
+                    <File Id="filC23E79C47C747751F019DA47A1299AFA" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+                </Component>
+                <Component Id="cmp3E451C5D6E19BE125CB2F1E58B505CF2" Guid="{F0FBAF73-B33D-4C4E-83B9-A5987AE57F7E}">
+                    <File Id="fil83F52BDB841E21CD3B4A4C5166ECE1C2" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\cs\Microsoft.CodeAnalysis.resources.dll" />
+                </Component>
+                <Component Id="cmp8D76937F95899B59370A5700EDFA25C3" Guid="{17BD678E-BE91-435A-89D3-F6BC3FEAF523}">
+                    <File Id="fil659001BEAFE47660F78E63623CA3E0A1" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\cs\Microsoft.CodeAnalysis.Scripting.resources.dll" />
+                </Component>
+            </Directory>
+            <Directory Id="dirC58BD6F5AF07BF50E93F511D9050521F" Name="de">
+                <Component Id="cmp1D42E5E1F7ABA7E17AEC083A3F11B6A9" Guid="{E309A074-7AA1-4FCA-B3DF-ABA95D98489D}">
+                    <File Id="fil0B7EB547392099BD84F3C9403A952DB2" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\de\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+                </Component>
+                <Component Id="cmpB173B6B40B4980EA348E6952680BF645" Guid="{14AF25A3-2689-4FCA-8D20-219E58482180}">
+                    <File Id="fil051C6EF955D00173994DB4C322ED0708" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+                </Component>
+                <Component Id="cmp1D35D8247B1D0E27AB0D09B183A9DC7A" Guid="{98D54837-6235-4941-9025-E4951A1AF2CE}">
+                    <File Id="fil363F8AF5F567F2D2B91EE4C90EF8FBF0" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\de\Microsoft.CodeAnalysis.resources.dll" />
+                </Component>
+                <Component Id="cmp62FF1849AF88EC7C21A15653DD598769" Guid="{F359491F-146D-484D-B2A3-E7BC712DF2C2}">
+                    <File Id="fil08E8FB9DF3462D1DE78FDD3CA26B8B4E" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\de\Microsoft.CodeAnalysis.Scripting.resources.dll" />
+                </Component>
+            </Directory>
+            <Directory Id="dir8E50D7EDD93B1FC87BBA98CCD2A1A801" Name="en">
+                <Component Id="cmpC99846B7D555F6C6A93B1C3A064B4B12" Guid="{C9160620-541A-4C47-AEAC-9C0AB763CDE0}">
+                    <File Id="fil76D81F8F244BE2F8166F762C7CF2B378" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\en\HandyControl.resources.dll" />
+                </Component>
+            </Directory>
+            <Directory Id="dir8CFCEC7AE20EC57AA1A54F72D4AE81C4" Name="es">
+                <Component Id="cmp8963E0D0C3B4992F28A10712E7470967" Guid="{BE11AC52-8409-49A5-BD7E-F59864C9AE3F}">
+                    <File Id="filDB7A3016853BEFF87E608E913D7C3161" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\es\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+                </Component>
+                <Component Id="cmp8EEA3A573E840B3838480D31A45AE5AE" Guid="{B2080515-D8C5-4785-A6C0-902644435A60}">
+                    <File Id="fil683EE9032DDC8E41ADA545A445C2D629" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+                </Component>
+                <Component Id="cmp2549B56C4D919DBC19BDC23526E2CFD6" Guid="{0F8A421B-E535-44BF-AF6E-7B66F94194E3}">
+                    <File Id="filD4292844174BBED9611D81B256755525" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\es\Microsoft.CodeAnalysis.resources.dll" />
+                </Component>
+                <Component Id="cmpD5C2598348F42FF1D74B2EB4C464FF36" Guid="{D9652F14-214C-471F-BF29-BFE6D3A319B9}">
+                    <File Id="fil59B905DDCD6FC9E5AE2624DB27CFE94C" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\es\Microsoft.CodeAnalysis.Scripting.resources.dll" />
+                </Component>
+            </Directory>
+            <Directory Id="dir0AFE4F8EB50901D000299D756DA98AD3" Name="fa">
+                <Component Id="cmp1DCAC3F876F2E562A65F963457599E4A" Guid="{6A3141C1-C9A9-403E-A9B6-1878CEA5C00E}">
+                    <File Id="filBBA1B0DC69F6EEE197B4FAD4C119F87E" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\fa\HandyControl.resources.dll" />
+                </Component>
+            </Directory>
+            <Directory Id="dir7A4BB8C7778569557899DD581ABB3097" Name="fr">
+                <Component Id="cmp0265278A781FDD4B263B117BEE0B7667" Guid="{046CFB23-7C85-4B49-985F-D3E68BA1DF9E}">
+                    <File Id="fil843A32C7A65F766298550D92F0CD61FA" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\fr\HandyControl.resources.dll" />
+                </Component>
+                <Component Id="cmpCDB2EF0865BB6895D27B46B2A861EF6E" Guid="{B6048BF2-430C-41E1-A9AA-6FAD5CE6CE86}">
+                    <File Id="fil4D7AA85019323F0C838B468A4A020A82" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\fr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+                </Component>
+                <Component Id="cmp795B9D1B410FD3415E6353B55B200132" Guid="{ADDA5351-9F06-4D85-B458-B5AD8AC80CAC}">
+                    <File Id="fil736B1ED8150D6D6F63D00D495FFD339B" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+                </Component>
+                <Component Id="cmpA40A69525803E199035787A58A4C8106" Guid="{5CEDB055-66D8-49CF-B489-7CEAA9F49916}">
+                    <File Id="filCD39D2133D51895327557931B0641273" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\fr\Microsoft.CodeAnalysis.resources.dll" />
+                </Component>
+                <Component Id="cmp7BB79CF8E6ABF70FDDEAC47F35F092F2" Guid="{0A2450BA-7ECD-49BE-B734-D48F9FD60692}">
+                    <File Id="fil1560B75EA788E15FA1E2B6DEDFCCEAF3" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\fr\Microsoft.CodeAnalysis.Scripting.resources.dll" />
+                </Component>
+            </Directory>
+            <Directory Id="dir532A917565AD87C566DBF8590C2321A5" Name="it">
+                <Component Id="cmp618B734BF53A032A5BE3042580931103" Guid="{04E2187E-5D68-485A-9160-69872403468F}">
+                    <File Id="fil0C46E9103BAD4E8CA2DFBE269E8098C9" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\it\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+                </Component>
+                <Component Id="cmp973DB8A82C9B7F0BF80CA38AB17765CA" Guid="{EF9745FF-2CE2-4040-A726-49CD26FC84D4}">
+                    <File Id="fil5B4F7DAFFEAE01E5269B61A07622FE2B" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+                </Component>
+                <Component Id="cmp5897573F37A9968F7ABBE06AB90F326B" Guid="{A1FEB9BC-2B2F-4D31-A462-20EC3B48134A}">
+                    <File Id="fil85C5E8900E60D7C6709A21A624BD79B2" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\it\Microsoft.CodeAnalysis.resources.dll" />
+                </Component>
+                <Component Id="cmp0894A5BC3FD5720B16731BF914BD561D" Guid="{6864963C-407A-490E-B478-BACCF0C89580}">
+                    <File Id="filB7C0875EEAE046E96235A34945F9DDD6" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\it\Microsoft.CodeAnalysis.Scripting.resources.dll" />
+                </Component>
+            </Directory>
+            <Directory Id="dir0F5D303D1DFCDAE3C6FC59153E3EBBA4" Name="ja">
+                <Component Id="cmpC2CC2A00E15DB061321E82C269D017D1" Guid="{2DBB3815-A99D-4759-A015-6958203C50B2}">
+                    <File Id="filDD8DD1C6A123BC20BCCCB07B787E2389" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\ja\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+                </Component>
+                <Component Id="cmp0F44008608E3D3F9834E29AF1B064FA5" Guid="{2A730F6D-FD84-49F9-952B-76B640F819DE}">
+                    <File Id="fil8C115F80D6EB72AC5EB362A69844C32A" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+                </Component>
+                <Component Id="cmpDFDF7A96484E4320FBFBAC669F183620" Guid="{E83485E1-9DF4-47FE-B025-72119DC829C1}">
+                    <File Id="fil42F85DFA7CA32781CAB76673B6B4E3D5" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\ja\Microsoft.CodeAnalysis.resources.dll" />
+                </Component>
+                <Component Id="cmpC3D0FC45940AED81B0C3ED02FCAB8917" Guid="{0F9EB3E9-DD92-4D29-9CCC-6B9CCD3DA5FD}">
+                    <File Id="fil80C25B9A04128B12FD14E28778A77CB1" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\ja\Microsoft.CodeAnalysis.Scripting.resources.dll" />
+                </Component>
+            </Directory>
+            <Directory Id="dir9B2AF8BE2163D44774962F755C814304" Name="ko">
+                <Component Id="cmp1EA2B748E7557D03038417451AAAAA20" Guid="{1A2665C4-F027-4644-892D-325B57C0EBE3}">
+                    <File Id="fil7993C28CADD72ECB1F89CB6B882471F4" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\ko\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+                </Component>
+                <Component Id="cmp8B0C48FBA3DCF2D674AE5EAB4F8FF8D9" Guid="{21BCA4E7-A7C2-4ED9-BA48-115908B6D405}">
+                    <File Id="filC214E92536309D24FDC0D9E9C2118DCC" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+                </Component>
+                <Component Id="cmp83865588987DAA9D7D86C1E2905712EF" Guid="{7BA1AD12-3A34-4BDA-8DF0-F8846C823C7B}">
+                    <File Id="fil15F45836E8CDFD0245FB738BA8243D40" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\ko\Microsoft.CodeAnalysis.resources.dll" />
+                </Component>
+                <Component Id="cmp0BBD0432F54F45B994A3F8510C7048B4" Guid="{3798FADF-3D5C-4458-BF93-8AAAC97B889F}">
+                    <File Id="filD8AA7970D63EA790456BFB80FC6C5431" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\ko\Microsoft.CodeAnalysis.Scripting.resources.dll" />
+                </Component>
+            </Directory>
+            <Directory Id="dir66DB3C0E9EAD2A94254D13D70FD9B96D" Name="ko-KR">
+                <Component Id="cmp7FBD95103B823BEE6CF5EAF2147E7994" Guid="{87FDDA14-77AA-42D4-8CA9-5BD6BD7DF4B3}">
+                    <File Id="filFBCADCF0BE5B678DAF522EE0DFEE9FE8" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\ko-KR\HandyControl.resources.dll" />
+                </Component>
+            </Directory>
+            <Directory Id="dir0D45070816FBD2D5C36D81B2144AB093" Name="pl">
+                <Component Id="cmpDA979B9B83361A4C272639D421F9839A" Guid="{41A1FF7F-4A43-410F-881C-E3FBD34138B9}">
+                    <File Id="fil8F368DEA84957E53786FB7DCE1A535A2" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\pl\HandyControl.resources.dll" />
+                </Component>
+                <Component Id="cmpE0E109CE648118780D6FFD83C3AE891F" Guid="{4109D190-E673-4E7F-B510-E9302F907919}">
+                    <File Id="fil9418BE0A5B640749D218507F036A3153" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\pl\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+                </Component>
+                <Component Id="cmp0B3CA01F2BE7E59608B4A0F814AEA210" Guid="{EC9218EF-7374-4CEE-B987-3B1E4A4AB8CC}">
+                    <File Id="filFEB2DC00E5E773AB52496D284917D397" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+                </Component>
+                <Component Id="cmp5A47713B8F718DC07C1F521537B12B6D" Guid="{7484E010-CC6F-4311-8C44-B1893EFD1A19}">
+                    <File Id="fil603E0B40DC7406E9EE24F880E736AB33" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\pl\Microsoft.CodeAnalysis.resources.dll" />
+                </Component>
+                <Component Id="cmp181B3072BE10BF86C40F21FBC18B3690" Guid="{A030B706-EC24-4081-AE1D-27E2AC86B308}">
+                    <File Id="fil03845EFD4712817C982D639D35EABA97" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\pl\Microsoft.CodeAnalysis.Scripting.resources.dll" />
+                </Component>
+            </Directory>
+            <Directory Id="dir196460838CF6F815FC684D1733AB6E75" Name="pt-BR">
+                <Component Id="cmpE8B0C74B12B8BA1542625934BD9C4864" Guid="{E975713B-AFCA-4735-AEB4-B188409068F3}">
+                    <File Id="fil61B0020363AAAEFA7294A68443EB86EA" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\pt-BR\HandyControl.resources.dll" />
+                </Component>
+                <Component Id="cmp28A15217181E325F4DF4F5729051F6A2" Guid="{12EB76CC-FFD3-46E5-A357-9DF34E0241EE}">
+                    <File Id="filCEB4664DB826B4C25BF0E5DE128855BA" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+                </Component>
+                <Component Id="cmp8D4A37D4E6AB1B7497248D92181A21E8" Guid="{84DA816D-1B3C-415C-A3CE-3601EDF2B259}">
+                    <File Id="filE142A7C1479272BC53966DF183A94D9F" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+                </Component>
+                <Component Id="cmp66E0CDA055497F8E87E745EA57A21E0C" Guid="{19D3A12C-F07D-4C1C-82B7-A945DE0921DB}">
+                    <File Id="filA45CEEC1E45C21FA527406DF369C95AA" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\pt-BR\Microsoft.CodeAnalysis.resources.dll" />
+                </Component>
+                <Component Id="cmp779CF217432627DCAC924BC7DFAED152" Guid="{4002ACEF-59D7-4293-A7FF-6CC21111B6BB}">
+                    <File Id="filC4B7B33A5505CD0C46F128F7F7A40179" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll" />
+                </Component>
+            </Directory>
+            <Directory Id="dirEB994F10E4908A6053C62CD7441C5545" Name="ru">
+                <Component Id="cmpEF178CC9381D10434DE42DF3BB922209" Guid="{85CDB07B-473B-4E6E-9101-584E5DD7799E}">
+                    <File Id="fil4264139DA79847635DBDF09DC700AD35" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\ru\HandyControl.resources.dll" />
+                </Component>
+                <Component Id="cmp89CE4E995D179833472D70D2D1C99EB5" Guid="{BDF3BAD6-47A2-4B2F-B2FA-F0F34BD84B05}">
+                    <File Id="fil8B918C539ACFFE64AC4F01955CC914D1" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\ru\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+                </Component>
+                <Component Id="cmp052D145A3D05DFAAB17C4CD67215CC9D" Guid="{5844E3B6-03AD-4746-9A0A-E685DCA4E020}">
+                    <File Id="filC3C4482CD958A550B49693D5F03E3A74" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+                </Component>
+                <Component Id="cmp126A8EEAE7BCA98D4EF1B430C4187B9F" Guid="{C6D1E27C-814C-490D-94A3-FDC4C2AD8FFA}">
+                    <File Id="fil19388692FFBAFA945B4B75526C3D555E" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\ru\Microsoft.CodeAnalysis.resources.dll" />
+                </Component>
+                <Component Id="cmpF573163E7B4818796701A6B84AD82505" Guid="{CCC517BD-CA6B-4B3F-83C0-276C0C3CED63}">
+                    <File Id="fil81A60A426A33F4F62100B6B160420B85" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\ru\Microsoft.CodeAnalysis.Scripting.resources.dll" />
+                </Component>
+            </Directory>
+            <Directory Id="dir71066E65BBD3FFFACA9E5CA71D44E3C2" Name="tr">
+                <Component Id="cmp0719C9555DE790866780E71A1DCC164F" Guid="{7CF10DD9-C329-4122-8FD8-654243DA56F1}">
+                    <File Id="filBF4B3AE8F2A7749303A79359BED2620A" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\tr\HandyControl.resources.dll" />
+                </Component>
+                <Component Id="cmp9F93DE185F641C656D252E5331CE7B46" Guid="{78038806-F461-45F7-BE23-9995A2D33F79}">
+                    <File Id="filC2AB1AEB25F9A3D3A136BB107B64CBB2" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\tr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+                </Component>
+                <Component Id="cmpB40CDD1FD2DE4A27AB073119E5A67FF2" Guid="{9A7E91C8-9B30-4AB0-9D11-A249F029AC75}">
+                    <File Id="fil6E74861EBE56C5BCAF0F9457E5E6EEBF" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+                </Component>
+                <Component Id="cmpE73A5CEC5E7D8ABF0D7EC337F74D3BBF" Guid="{C32F0F3A-D418-4D96-A7CE-790DED51A1DD}">
+                    <File Id="filF32E9BC15CCCDE3B65AF22FD05C61374" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\tr\Microsoft.CodeAnalysis.resources.dll" />
+                </Component>
+                <Component Id="cmpB1159465C16C461C9C2AAEC8553E9E8E" Guid="{95C1B1AB-61BA-4A93-B2DF-2604861436AD}">
+                    <File Id="fil2E3D90F49F2EF8E3FB215041577535E4" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\tr\Microsoft.CodeAnalysis.Scripting.resources.dll" />
+                </Component>
+            </Directory>
+            <Directory Id="dir328646C166FA4D2800D16E8AAC2CFFD0" Name="zh-Hans">
+                <Component Id="cmp95C937B8488EF06C1C46591CF9EE001D" Guid="{245DDE8C-82CB-4D89-9E63-33060E718617}">
+                    <File Id="fil731A013A5965842DD771BFE257B3EDBF" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+                </Component>
+                <Component Id="cmpEE8AB45B0A815C925D89B679683011BB" Guid="{E3805870-6BF4-486F-B5C4-7B2B345E81B6}">
+                    <File Id="fil24B555034A6E6B8BD4188C6C2C84F17A" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+                </Component>
+                <Component Id="cmpE2BE53D3E6B431D6456B324FE2033A19" Guid="{04F729F7-7E65-445B-8A67-817CE428780A}">
+                    <File Id="filD5CFBB324584E068AD6467E610CB9B2D" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\zh-Hans\Microsoft.CodeAnalysis.resources.dll" />
+                </Component>
+                <Component Id="cmpF16AED57D7FFA9F28A6D5F11A682FBD3" Guid="{7117CD73-7804-4323-9948-4833970958F0}">
+                    <File Id="fil09D0E4B5412971288265A5C874E1BD93" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll" />
+                </Component>
+            </Directory>
+            <Directory Id="dir5BF68D519FCC0314AF5F2D0AEBA29B5F" Name="zh-Hant">
+                <Component Id="cmpB366D4ECEA9832A197D4D85CEFD0660C" Guid="{355A1DB4-6F71-4F77-86C1-643A4513F53A}">
+                    <File Id="filD754CBDB8946CB3FD4FC148A4024A6A0" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+                </Component>
+                <Component Id="cmpE60E85B2B277C108F0D16F80F9C209F6" Guid="{9CD82A74-4B0B-4BA1-B76A-868EF4B8BC03}">
+                    <File Id="fil8DA64AEECD69497CE62579B3453B5F51" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+                </Component>
+                <Component Id="cmp113D73B1817C636FCE4B6FE60336DF2B" Guid="{2DCD5E73-F181-4EBF-AB41-A8D2CD9379E6}">
+                    <File Id="filC11A0BC4BAF8E836E52C24A79669C0D0" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\zh-Hant\Microsoft.CodeAnalysis.resources.dll" />
+                </Component>
+                <Component Id="cmp04D8FDC2763C771FF4030C51805DE5E9" Guid="{A43A0962-CA93-45DB-9D89-524C9CAF351F}">
+                    <File Id="fil643297D7FB0DE97E8A7116EB580C94EF" KeyPath="yes" Source="$(var.JanetRevit.TargetDir)\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll" />
+                </Component>
+            </Directory>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="ExecutablesGroup">
+            <ComponentRef Id="cmpD29DDAC27E9233099805940293AF27B0" />
+            <ComponentRef Id="cmp14B16CF1920DC17592E7850C40CBFA32" />
+            <ComponentRef Id="cmp9323FE62CCB67FA9EE3246F9B8DB6E8B" />
+            <ComponentRef Id="cmp2BE74A787D6DD2A5BE7E88037E223DDA" />
+            <ComponentRef Id="cmpC8CF9E59027562D5EEAF2187C7998BC6" />
+            <ComponentRef Id="cmpC29695AAEC75D52CE0A2ABCD8E6F8ADF" />
+            <ComponentRef Id="cmp8CAD80C4EC61365FA8822A45C99E9ECB" />
+            <ComponentRef Id="cmp2169738BA54577D0857D30A116F7325D" />
+            <ComponentRef Id="cmp9C197B738CAB2196DF46C2203EEBA1CA" />
+            <ComponentRef Id="cmpB052B707590EE415B694C0E75F7CD29A" />
+            <ComponentRef Id="cmpCEB1B5D4A0CFC076A46E921BC238E568" />
+            <ComponentRef Id="cmpD63D2F4C97FBD1FD32D5ACEDA56C3864" />
+            <ComponentRef Id="cmpB975AABD55F7B29A71F79A0B8415EDAF" />
+            <ComponentRef Id="cmp8C4E9C73C2927AE9F3A7DBD16C6B64A3" />
+            <ComponentRef Id="cmp766521ACEEFBF7D30F77281C3269EE46" />
+            <ComponentRef Id="cmp3CD2594374B2EEB71A3998175A3A22B4" />
+            <ComponentRef Id="cmp0BF99F7674BC025A47187F406D319312" />
+            <ComponentRef Id="cmpC4BDACF6E273B51AC12A37975172F185" />
+            <ComponentRef Id="cmp1C4B446E105EB4AAD9099204EE6BD966" />
+            <ComponentRef Id="cmp1169771A5F1F35223737DBB21130A95F" />
+            <ComponentRef Id="cmpA0C35A1138EB5CFFE9EC573F76F8415E" />
+            <ComponentRef Id="cmp6616CB17E4922802E5C84B9C16935052" />
+            <ComponentRef Id="cmp8B0413DCAF94ECC68124314A3006334A" />
+            <ComponentRef Id="cmpBA606FD1041F9C141950FDDD538C813B" />
+            <ComponentRef Id="cmp7751704C1A2B7E9CA6222681E8930E89" />
+            <ComponentRef Id="cmp69C78768DDE0502622D7DF2E722FB56C" />
+            <ComponentRef Id="cmp829099A976A4B27227D473B99A6F6A9D" />
+            <ComponentRef Id="cmpF19592E25D4B2CA8C6389AAC5C218571" />
+            <ComponentRef Id="cmpAD568283CFD6A75645ED0ECDD761D85E" />
+            <ComponentRef Id="cmpFB525AB8CB9FAB0057B5359FFF6543A1" />
+            <ComponentRef Id="cmp5A904851F9DE7369E243943F4E5027FA" />
+            <ComponentRef Id="cmpB5468F5DF6425D31E8036A019997ED81" />
+            <ComponentRef Id="cmp158230C6D044784C9A80FCAFE4E94C86" />
+            <ComponentRef Id="cmp8502820C95556A3A5301EB2F54E6E663" />
+            <ComponentRef Id="cmp023CF0EB199508879F421BDEE4FBEEAF" />
+            <ComponentRef Id="cmp221A567CD3CE3ABA8B118B1908556F7D" />
+            <ComponentRef Id="cmpA0724D3017735645328637689F53919B" />
+            <ComponentRef Id="cmp987914586EE2C9511EDEDF9CA10D6ADE" />
+            <ComponentRef Id="cmpE2400EBCEA09B853252DFEAFE720F88D" />
+            <ComponentRef Id="cmpFFD411E243A8C58DF4168B952430B07E" />
+            <ComponentRef Id="cmpAE3B95D0FD10B545E6ED0A0E4365866D" />
+            <ComponentRef Id="cmp3E451C5D6E19BE125CB2F1E58B505CF2" />
+            <ComponentRef Id="cmp8D76937F95899B59370A5700EDFA25C3" />
+            <ComponentRef Id="cmp1D42E5E1F7ABA7E17AEC083A3F11B6A9" />
+            <ComponentRef Id="cmpB173B6B40B4980EA348E6952680BF645" />
+            <ComponentRef Id="cmp1D35D8247B1D0E27AB0D09B183A9DC7A" />
+            <ComponentRef Id="cmp62FF1849AF88EC7C21A15653DD598769" />
+            <ComponentRef Id="cmpC99846B7D555F6C6A93B1C3A064B4B12" />
+            <ComponentRef Id="cmp8963E0D0C3B4992F28A10712E7470967" />
+            <ComponentRef Id="cmp8EEA3A573E840B3838480D31A45AE5AE" />
+            <ComponentRef Id="cmp2549B56C4D919DBC19BDC23526E2CFD6" />
+            <ComponentRef Id="cmpD5C2598348F42FF1D74B2EB4C464FF36" />
+            <ComponentRef Id="cmp1DCAC3F876F2E562A65F963457599E4A" />
+            <ComponentRef Id="cmp0265278A781FDD4B263B117BEE0B7667" />
+            <ComponentRef Id="cmpCDB2EF0865BB6895D27B46B2A861EF6E" />
+            <ComponentRef Id="cmp795B9D1B410FD3415E6353B55B200132" />
+            <ComponentRef Id="cmpA40A69525803E199035787A58A4C8106" />
+            <ComponentRef Id="cmp7BB79CF8E6ABF70FDDEAC47F35F092F2" />
+            <ComponentRef Id="cmp618B734BF53A032A5BE3042580931103" />
+            <ComponentRef Id="cmp973DB8A82C9B7F0BF80CA38AB17765CA" />
+            <ComponentRef Id="cmp5897573F37A9968F7ABBE06AB90F326B" />
+            <ComponentRef Id="cmp0894A5BC3FD5720B16731BF914BD561D" />
+            <ComponentRef Id="cmpC2CC2A00E15DB061321E82C269D017D1" />
+            <ComponentRef Id="cmp0F44008608E3D3F9834E29AF1B064FA5" />
+            <ComponentRef Id="cmpDFDF7A96484E4320FBFBAC669F183620" />
+            <ComponentRef Id="cmpC3D0FC45940AED81B0C3ED02FCAB8917" />
+            <ComponentRef Id="cmp1EA2B748E7557D03038417451AAAAA20" />
+            <ComponentRef Id="cmp8B0C48FBA3DCF2D674AE5EAB4F8FF8D9" />
+            <ComponentRef Id="cmp83865588987DAA9D7D86C1E2905712EF" />
+            <ComponentRef Id="cmp0BBD0432F54F45B994A3F8510C7048B4" />
+            <ComponentRef Id="cmp7FBD95103B823BEE6CF5EAF2147E7994" />
+            <ComponentRef Id="cmpDA979B9B83361A4C272639D421F9839A" />
+            <ComponentRef Id="cmpE0E109CE648118780D6FFD83C3AE891F" />
+            <ComponentRef Id="cmp0B3CA01F2BE7E59608B4A0F814AEA210" />
+            <ComponentRef Id="cmp5A47713B8F718DC07C1F521537B12B6D" />
+            <ComponentRef Id="cmp181B3072BE10BF86C40F21FBC18B3690" />
+            <ComponentRef Id="cmpE8B0C74B12B8BA1542625934BD9C4864" />
+            <ComponentRef Id="cmp28A15217181E325F4DF4F5729051F6A2" />
+            <ComponentRef Id="cmp8D4A37D4E6AB1B7497248D92181A21E8" />
+            <ComponentRef Id="cmp66E0CDA055497F8E87E745EA57A21E0C" />
+            <ComponentRef Id="cmp779CF217432627DCAC924BC7DFAED152" />
+            <ComponentRef Id="cmpEF178CC9381D10434DE42DF3BB922209" />
+            <ComponentRef Id="cmp89CE4E995D179833472D70D2D1C99EB5" />
+            <ComponentRef Id="cmp052D145A3D05DFAAB17C4CD67215CC9D" />
+            <ComponentRef Id="cmp126A8EEAE7BCA98D4EF1B430C4187B9F" />
+            <ComponentRef Id="cmpF573163E7B4818796701A6B84AD82505" />
+            <ComponentRef Id="cmp0719C9555DE790866780E71A1DCC164F" />
+            <ComponentRef Id="cmp9F93DE185F641C656D252E5331CE7B46" />
+            <ComponentRef Id="cmpB40CDD1FD2DE4A27AB073119E5A67FF2" />
+            <ComponentRef Id="cmpE73A5CEC5E7D8ABF0D7EC337F74D3BBF" />
+            <ComponentRef Id="cmpB1159465C16C461C9C2AAEC8553E9E8E" />
+            <ComponentRef Id="cmp95C937B8488EF06C1C46591CF9EE001D" />
+            <ComponentRef Id="cmpEE8AB45B0A815C925D89B679683011BB" />
+            <ComponentRef Id="cmpE2BE53D3E6B431D6456B324FE2033A19" />
+            <ComponentRef Id="cmpF16AED57D7FFA9F28A6D5F11A682FBD3" />
+            <ComponentRef Id="cmpB366D4ECEA9832A197D4D85CEFD0660C" />
+            <ComponentRef Id="cmpE60E85B2B277C108F0D16F80F9C209F6" />
+            <ComponentRef Id="cmp113D73B1817C636FCE4B6FE60336DF2B" />
+            <ComponentRef Id="cmp04D8FDC2763C771FF4030C51805DE5E9" />
+        </ComponentGroup>
+    </Fragment>
+</Wix>

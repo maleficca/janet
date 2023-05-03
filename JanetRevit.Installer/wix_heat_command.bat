@@ -1,0 +1,2 @@
+heat dir ../Release -gg -out Executables.wxs -sreg -sfrag -srd -template fragment -cg ExecutablesGroup -var var.JanetRevit.TargetDir -dr AddinFolder
+heat dir ../ExampleBlocks -gg -out Blocks.wxs -sreg -sfrag -srd -template fragment -cg BlocksGroup -var var.BlocksPath -dr BlocksFolder
