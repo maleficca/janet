@@ -1,0 +1,8 @@
+{
+  "label": "Block library",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "See all the example Janet Blocks you can use straight away!"
+  }
+}

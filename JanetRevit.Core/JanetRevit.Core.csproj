@@ -64,6 +64,7 @@
     <Compile Include="Helpers\RichTextBoxHelper.cs" />
     <Compile Include="Interfaces\IJanetBlock.cs" />
     <Compile Include="Macros\GenerateEmptyFamilies.cs" />
+    <Compile Include="Macros\SaveDataInExtensibleStorage.cs" />
     <Compile Include="Macros\TurnParamsIntoTypeParams.cs" />
     <Compile Include="Models\AddinDataProperties.cs" />
     <Compile Include="Models\JanetBlock.cs" />

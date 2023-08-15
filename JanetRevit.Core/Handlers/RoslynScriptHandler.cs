@@ -44,6 +44,7 @@ namespace JanetRevit.Core.Handlers
                 "Autodesk.Revit.UI",
                 "Autodesk.Revit.DB",
                 "Autodesk.Revit.DB.Structure",
+                "Autodesk.Revit.DB.ExtensibleStorage",
                 "System",
                 "System.Collections.Generic",
                 "System.IO",
