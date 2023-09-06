@@ -51,6 +51,14 @@
          KeyPath='yes' />
         <File Id="fil6185FB5E275B2828EDDC1E094F5FC295" Source="$(var.BlocksPath)\turn_type_params.cs" />
       </Component>
+      <Component Id="cmp4732F8752B6E8BA22A3C438E41E0BBG9" Guid="{55E9622F-9456-4D2C-866D-C218A72D295F}">
+        <RegistryValue Root='HKCU' Key='Software\Manufacturer\Product'
+         Name='InstallFolder'
+         Value='[INSTALLFOLDER]'
+         Type='string'
+         KeyPath='yes' />
+        <File Id="fil6185FB5E275B2828EDDC1E094F5FC296" Source="$(var.BlocksPath)\views_to_NWC.cs" />
+      </Component>
     </DirectoryRef>
   </Fragment>
   <Fragment>
@@ -61,6 +69,7 @@
       <ComponentRef Id="cmp91A3C0635B4D669D9DD55FE86D60B5AF" />
       <ComponentRef Id="cmpC73A61AB151B9642D0B2C5D532E3F2A8" />
       <ComponentRef Id="cmp4732F8752B6E8BA22A3C438E41E0BBF9" />
+      <ComponentRef Id="cmp4732F8752B6E8BA22A3C438E41E0BBG9" />
     </ComponentGroup>
   </Fragment>
 </Wix>
