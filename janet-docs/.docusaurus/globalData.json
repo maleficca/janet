@@ -1,0 +1,98 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "download",
+          "docs": [
+            {
+              "id": "block-library/approve",
+              "path": "/docs/block-library/approve",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "block-library/change-params-to-type",
+              "path": "/docs/block-library/change-params-to-type",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "block-library/create_families",
+              "path": "/docs/block-library/create_families",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "block-library/model_lintels",
+              "path": "/docs/block-library/model_lintels",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "block-library/reject",
+              "path": "/docs/block-library/reject",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "block-library/test",
+              "path": "/docs/block-library/test",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "download",
+              "path": "/docs/download",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/adding-new-blocks",
+              "path": "/docs/tutorial-basics/adding-new-blocks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/adding-shortcut",
+              "path": "/docs/tutorial-basics/adding-shortcut",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/congratulations",
+              "path": "/docs/tutorial-basics/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/starting-janet",
+              "path": "/docs/tutorial-basics/starting-janet",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/working-with-blocks",
+              "path": "/docs/tutorial-basics/working-with-blocks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---basics",
+              "path": "/docs/category/tutorial---basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/block-library",
+              "path": "/docs/category/block-library",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/download",
+                "label": "download"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

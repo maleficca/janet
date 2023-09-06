@@ -1,0 +1,27 @@
+{
+  "unversionedId": "block-library/change-params-to-type",
+  "id": "block-library/change-params-to-type",
+  "title": "Change parameters to Type",
+  "description": "| Name                 | Switch parameters to type parameters  |",
+  "source": "@site/docs/block-library/change-params-to-type.md",
+  "sourceDirName": "block-library",
+  "slug": "/block-library/change-params-to-type",
+  "permalink": "/docs/block-library/change-params-to-type",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/block-library/change-params-to-type.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Reject",
+    "permalink": "/docs/block-library/reject"
+  },
+  "next": {
+    "title": "Model beams",
+    "permalink": "/docs/block-library/model_lintels"
+  }
+}

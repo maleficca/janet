@@ -1,0 +1,23 @@
+{
+  "unversionedId": "download",
+  "id": "download",
+  "title": "Download Janet",
+  "description": "You can download the newest release of Janet by clicking here:",
+  "source": "@site/docs/download.md",
+  "sourceDirName": ".",
+  "slug": "/download",
+  "permalink": "/docs/download",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/download.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Tutorial - Basics",
+    "permalink": "/docs/category/tutorial---basics"
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Download Janet",
+        "href": "/docs/download",
+        "docId": "download"
+      },
+      {
+        "type": "category",
+        "label": "Tutorial - Basics",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Starting Janet",
+            "href": "/docs/tutorial-basics/starting-janet",
+            "docId": "tutorial-basics/starting-janet"
+          },
+          {
+            "type": "link",
+            "label": "Adding shortcut to Janet",
+            "href": "/docs/tutorial-basics/adding-shortcut",
+            "docId": "tutorial-basics/adding-shortcut"
+          },
+          {
+            "type": "link",
+            "label": "Working with Blocks",
+            "href": "/docs/tutorial-basics/working-with-blocks",
+            "docId": "tutorial-basics/working-with-blocks"
+          },
+          {
+            "type": "link",
+            "label": "Adding new Blocks",
+            "href": "/docs/tutorial-basics/adding-new-blocks",
+            "docId": "tutorial-basics/adding-new-blocks"
+          },
+          {
+            "type": "link",
+            "label": "Congratulations!",
+            "href": "/docs/tutorial-basics/congratulations",
+            "docId": "tutorial-basics/congratulations"
+          }
+        ],
+        "href": "/docs/category/tutorial---basics"
+      },
+      {
+        "type": "category",
+        "label": "Block library",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Test",
+            "href": "/docs/block-library/test",
+            "docId": "block-library/test"
+          },
+          {
+            "type": "link",
+            "label": "Approve",
+            "href": "/docs/block-library/approve",
+            "docId": "block-library/approve"
+          },
+          {
+            "type": "link",
+            "label": "Reject",
+            "href": "/docs/block-library/reject",
+            "docId": "block-library/reject"
+          },
+          {
+            "type": "link",
+            "label": "Change parameters to Type",
+            "href": "/docs/block-library/change-params-to-type",
+            "docId": "block-library/change-params-to-type"
+          },
+          {
+            "type": "link",
+            "label": "Model beams",
+            "href": "/docs/block-library/model_lintels",
+            "docId": "block-library/model_lintels"
+          },
+          {
+            "type": "link",
+            "label": "Create families",
+            "href": "/docs/block-library/create_families",
+            "docId": "block-library/create_families"
+          }
+        ],
+        "href": "/docs/category/block-library"
+      }
+    ]
+  },
+  "docs": {
+    "block-library/approve": {
+      "id": "block-library/approve",
+      "title": "Approve",
+      "description": "| Name                 | Approve parameter  |",
+      "sidebar": "tutorialSidebar"
+    },
+    "block-library/change-params-to-type": {
+      "id": "block-library/change-params-to-type",
+      "title": "Change parameters to Type",
+      "description": "| Name                 | Switch parameters to type parameters  |",
+      "sidebar": "tutorialSidebar"
+    },
+    "block-library/create_families": {
+      "id": "block-library/create_families",
+      "title": "Create families",
+      "description": "| Name                 | Create families  |",
+      "sidebar": "tutorialSidebar"
+    },
+    "block-library/model_lintels": {
+      "id": "block-library/model_lintels",
+      "title": "Model beams",
+      "description": "| Name                 | Place beams above doors and windows  |",
+      "sidebar": "tutorialSidebar"
+    },
+    "block-library/reject": {
+      "id": "block-library/reject",
+      "title": "Reject",
+      "description": "| Name                 | Reject parameter  |",
+      "sidebar": "tutorialSidebar"
+    },
+    "block-library/test": {
+      "id": "block-library/test",
+      "title": "Test",
+      "description": "| Name                 | Test  |",
+      "sidebar": "tutorialSidebar"
+    },
+    "download": {
+      "id": "download",
+      "title": "Download Janet",
+      "description": "You can download the newest release of Janet by clicking here:",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/adding-new-blocks": {
+      "id": "tutorial-basics/adding-new-blocks",
+      "title": "Adding new Blocks",
+      "description": "New Blocks can be added by creating a new file in the Janet Blocks directory located in My Documents.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/adding-shortcut": {
+      "id": "tutorial-basics/adding-shortcut",
+      "title": "Adding shortcut to Janet",
+      "description": "While you can operate Janet by starting the application from the Add-Ins tab, it is not the fastest way to do it.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/congratulations": {
+      "id": "tutorial-basics/congratulations",
+      "title": "Congratulations!",
+      "description": "You have just learned the basics of Janet!",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/starting-janet": {
+      "id": "tutorial-basics/starting-janet",
+      "title": "Starting Janet",
+      "description": "You can start Janet as follows:",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/working-with-blocks": {
+      "id": "tutorial-basics/working-with-blocks",
+      "title": "Working with Blocks",
+      "description": "Scripts and macros used by Janet will be always referred to as Blocks.",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Tutorial - Basics",
+  "description": "Take a quick tour and learn how to use Janet",
+  "slug": "/category/tutorial---basics",
+  "permalink": "/docs/category/tutorial---basics",
+  "navigation": {
+    "previous": {
+      "title": "Download Janet",
+      "permalink": "/docs/download"
+    },
+    "next": {
+      "title": "Starting Janet",
+      "permalink": "/docs/tutorial-basics/starting-janet"
+    }
+  }
+}
