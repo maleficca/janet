@@ -1,0 +1,27 @@
+{
+  "unversionedId": "block-library/model_lintels",
+  "id": "block-library/model_lintels",
+  "title": "Model beams",
+  "description": "| Name                 | Place beams above doors and windows  |",
+  "source": "@site/docs/block-library/model_lintels.md",
+  "sourceDirName": "block-library",
+  "slug": "/block-library/model_lintels",
+  "permalink": "/docs/block-library/model_lintels",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/block-library/model_lintels.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Change parameters to Type",
+    "permalink": "/docs/block-library/change-params-to-type"
+  },
+  "next": {
+    "title": "Create families",
+    "permalink": "/docs/block-library/create_families"
+  }
+}

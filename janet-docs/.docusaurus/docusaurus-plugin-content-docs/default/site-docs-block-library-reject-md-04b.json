@@ -1,0 +1,27 @@
+{
+  "unversionedId": "block-library/reject",
+  "id": "block-library/reject",
+  "title": "Reject",
+  "description": "| Name                 | Reject parameter  |",
+  "source": "@site/docs/block-library/reject.md",
+  "sourceDirName": "block-library",
+  "slug": "/block-library/reject",
+  "permalink": "/docs/block-library/reject",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/block-library/reject.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Approve",
+    "permalink": "/docs/block-library/approve"
+  },
+  "next": {
+    "title": "Change parameters to Type",
+    "permalink": "/docs/block-library/change-params-to-type"
+  }
+}

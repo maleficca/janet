@@ -1,0 +1,27 @@
+{
+  "unversionedId": "block-library/approve",
+  "id": "block-library/approve",
+  "title": "Approve",
+  "description": "| Name                 | Approve parameter  |",
+  "source": "@site/docs/block-library/approve.md",
+  "sourceDirName": "block-library",
+  "slug": "/block-library/approve",
+  "permalink": "/docs/block-library/approve",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/block-library/approve.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Test",
+    "permalink": "/docs/block-library/test"
+  },
+  "next": {
+    "title": "Reject",
+    "permalink": "/docs/block-library/reject"
+  }
+}

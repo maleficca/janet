@@ -1,0 +1,16 @@
+{
+  "title": "Block library",
+  "description": "See all the example Janet Blocks you can use straight away!",
+  "slug": "/category/block-library",
+  "permalink": "/docs/category/block-library",
+  "navigation": {
+    "previous": {
+      "title": "Congratulations!",
+      "permalink": "/docs/tutorial-basics/congratulations"
+    },
+    "next": {
+      "title": "Test",
+      "permalink": "/docs/block-library/test"
+    }
+  }
+}

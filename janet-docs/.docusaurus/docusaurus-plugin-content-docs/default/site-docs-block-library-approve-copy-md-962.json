@@ -1,0 +1,27 @@
+{
+  "unversionedId": "block-library/approve copy",
+  "id": "block-library/approve copy",
+  "title": "Approve",
+  "description": "| Name                 | Approve parameter  |",
+  "source": "@site/docs/block-library/approve copy.md",
+  "sourceDirName": "block-library",
+  "slug": "/block-library/approve copy",
+  "permalink": "/docs/block-library/approve copy",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/block-library/approve copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Test",
+    "permalink": "/docs/block-library/starting-janet"
+  },
+  "next": {
+    "title": "Approve",
+    "permalink": "/docs/block-library/approve"
+  }
+}

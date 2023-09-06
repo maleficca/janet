@@ -1,0 +1,27 @@
+{
+  "unversionedId": "block-library/reject copy",
+  "id": "block-library/reject copy",
+  "title": "Reject",
+  "description": "| Name                 | Reject parameter  |",
+  "source": "@site/docs/block-library/reject copy.md",
+  "sourceDirName": "block-library",
+  "slug": "/block-library/reject copy",
+  "permalink": "/docs/block-library/reject copy",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/block-library/reject copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Approve",
+    "permalink": "/docs/block-library/approve"
+  },
+  "next": {
+    "title": "Reject",
+    "permalink": "/docs/block-library/reject"
+  }
+}
