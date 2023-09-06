@@ -8,7 +8,7 @@ export default {
   "tagline": "Simple Revit automation",
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
-  "onBrokenLinks": "throw",
+  "onBrokenLinks": "ignore",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
   "organizationName": "vtdevelopment",
